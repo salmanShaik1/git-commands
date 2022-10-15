@@ -1,0 +1,28 @@
+# to initialize empty git repository locally
+git init
+
+# to check status
+git status
+
+# to add files to staging area
+git add .
+git add <filename>
+
+# to commit changes
+git commit -m "type msg here"
+
+# to view commits
+git log
+
+# to view detailed changes in commit
+git log -p
+
+# to move head to another commit
+git reset --hard <hash commit>
+
+# to rollback to last commit
+git reset --hard
+
+# to ignore files
+touch .gitignore
+add file names in .gitignore file and place .gitignore in .git
