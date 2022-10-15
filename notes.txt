@@ -26,3 +26,6 @@ git reset --hard
 # to ignore files
 touch .gitignore
 add file names in .gitignore file and place .gitignore in .git
+
+# to skip staging command and commit
+git commit -a -m "message here"
